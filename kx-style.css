@@ -44,9 +44,63 @@ ul li {
     font-size: 1.2rem;
     font-weight: bold;
 }
+
 .header a:hover {
     color: rgb(73, 71, 71);
     opacity: 0.8;
     transition: 2s;
 }
 
+.container {
+    width: 100%;
+    /* height: 600px; */
+    justify-content: center;
+}
+
+
+
+
+.footer {}
+
+.footer_button {}
+
+.footer_cre {}
+
+/* footer {
+    width: 100%;
+    height: 200px;
+    background-color: #007bc7;
+  }
+  
+  footer a{
+    text-decoration: none;
+  }
+  
+  
+  .susi1 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .susi2 {
+    width: 200px;
+    height: 100px;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .buttonname{
+    font-size: 50px;
+    color: #fff;
+  }
+  
+  .susi3{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: 20px;
+  } */

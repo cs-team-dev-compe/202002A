@@ -21,39 +21,60 @@
     </header>
 
 
-
-
-    <!-- ここから追記 -->
     <main class="container">
-        <h1 style="color:red">おみくじ</h1>
-        <section class="container col-sm-8">
-            <ul>
-                <!-- 後で実際のチャットの一覧表示 -->
-                <li style="color:red">
-                    今日の運勢は？？
-                </li>
-            </ul>
-            <form><input type="button" value="サイコロ" onClick="altRan2()"> <span id="sai">-</span></form>
+        <article>
+            <h1>●挨拶</h1>
+            <p>
+                はじめまして加藤と言います。僕のホームページを閲覧して<br>
+                いただきありがとうございます。こちらのページでは僕の<br>
+                趣味を掲載しています。ページの最後には簡単なおみくじを<br>
+                作成したのでぜひやってみてください！
+            </p>
 
-            <script type="text/javascript">
-                function altRan2() {
-                    var r = Math.floor(Math.random() * 100); //乱数の発生
-                    var x = 0
-                    if (r <= 9) {
-                        x = "凶";
-                    } else if (r <= 29) {
-                        x = "末吉";
-                    } else if (r <= 69) {
-                        x = "小吉";
-                    } else if (r <= 89) {
-                        x = "中吉";
-                    } else if (r <= 99) {
-                        x = "大吉";
+            <h1>●趣味</h1>
+            <h2>1, バスケットボール</h2>
+            <img src="./img/basketball.png">
+            <p>
+                私は高校時代バスケットボール部に所属していました。<br>
+                卒業した今でも近所の体育館にバスケをしにいきます。
+            </p>
+            <h2>2, 料理</h2>
+            <p></p>
+            <img src="./img/omurice.jpg">
+            <h2>3, ゲーム</h2>
+            <img src="./img/pokemon.jpeg">
+            <p></p>
+
+            <h1 style="color:red">おみくじ</h1>
+            <section class="container col-sm-8">
+                <ul>
+                    <!-- 後で実際のチャットの一覧表示 -->
+                    <li style="color:red">
+                        今日の運勢は？？
+                    </li>
+                </ul>
+                <form><input type="button" value="サイコロ" onClick="altRan2()"> <span id="sai">-</span></form>
+
+                <script type="text/javascript">
+                    function altRan2() {
+                        var r = Math.floor(Math.random() * 100); //乱数の発生
+                        var x = 0
+                        if (r <= 9) {
+                            x = "凶";
+                        } else if (r <= 29) {
+                            x = "末吉";
+                        } else if (r <= 69) {
+                            x = "小吉";
+                        } else if (r <= 89) {
+                            x = "中吉";
+                        } else if (r <= 99) {
+                            x = "大吉";
+                        }
+                        document.getElementById("sai").innerHTML = x; //値の出力
                     }
-                    document.getElementById("sai").innerHTML = x; //値の出力
-                }
-            </script>
-        </section>
+                </script>
+            </section>
+        </article>
     </main>
 
 
@@ -61,12 +82,12 @@
     <footer>
         <div class="footer">
             <a href="#top">
-                <div class="forrer button">
+                <div class="forrer_button">
                     <p class="buttonname">TOP</p>
                 </div>
             </a>
         </div>
-        <p class="footer name">created by 加藤樹</p>
+        <p class="footer_cre">created by Kato</p>
     </footer>
 
 
