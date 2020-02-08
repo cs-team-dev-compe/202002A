@@ -8,7 +8,7 @@
     <!-- Bootstrapの利用。link要素はhead内に貼り付ける -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-jJ2L/Ujk8jWEwtIXPFEk3X+f20QKnj4IIscn+JZzxqkbAUC79idDdiAhAi2E7czT" crossorigin="anonymous" />
-    <link rel="stylesheet" href="kx-style.css">    
+    <link rel="stylesheet" href="kx-style.css">
     <title>加藤の趣味</title>
 </head>
 
@@ -38,22 +38,41 @@
             <script type="text/javascript">
                 function altRan2() {
                     var r = Math.floor(Math.random() * 100); //乱数の発生
-                    if (x <= 9) {
-                        r = 凶;
-                    } else if (x <= 29) {
-                        r = 末吉;
-                    } else if (x <= 69) {
-                        r = 小吉;
-                    } else if (x <= 89) {
-                        r = 中吉;
-                    } else if (x <= 99) {
-                        r = 大吉;
+                    var x = 0
+                    if (r <= 9) {
+                        x = "凶";
+                    } else if (r <= 29) {
+                        x = "末吉";
+                    } else if (r <= 69) {
+                        x = "小吉";
+                    } else if (r <= 89) {
+                        x = "中吉";
+                    } else if (r <= 99) {
+                        x = "大吉";
                     }
-                    document.getElementById("sai").innerHTML = r; //値の出力
+                    document.getElementById("sai").innerHTML = x; //値の出力
                 }
             </script>
         </section>
     </main>
+
+
+
+    <footer>
+        <div class="footer">
+            <a href="#top">
+                <div class="forrer button">
+                    <p class="buttonname">TOP</p>
+                </div>
+            </a>
+        </div>
+        <p class="footer name">created by 加藤樹</p>
+    </footer>
+
+
+
+
+
     <!-- Bootstrapの利用。script要素はbodyの閉じタグの直前にこの順番で貼り付ける。 -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -64,6 +83,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
 </body>
 
 </html>
