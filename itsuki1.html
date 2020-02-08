@@ -16,7 +16,7 @@
     <header class="header">
         <div class="wrapper">
             <h1>Kato's 趣味</h1>
-            <a href="#">小野さんのリンク</a>
+            <a href="ot.html">小野さんのリンク</a>
         </div>
     </header>
 
@@ -25,7 +25,7 @@
         <article>
             <section>
                 <h1>●挨拶</h1>
-                <div class="center">
+                <div class="topcenter">
                     <p class="greeting">
                         はじめまして加藤と言います。僕のホームページを閲覧して
                         いただきありがとうございます。こちらのページでは僕の
@@ -57,12 +57,12 @@
                             楽しんでいます。新しい発見につながったときに、喜びを感じます。
                         </p>
                     </div>
-                    <img src="./img/omurice.jpg" 　width="200" height="200">
+                    <img src="./img/omurice.jpg" ß>
                 </div>
                 <h2>3, ゲーム</h2>
                 <div class="game">
+                    <img src="./img/pokemon.jpeg">
                     <div class="center">
-                        <img src="./img/pokemon.jpeg">
                         <p class="des">
                             小さい頃から、ゲームが好きです。最近はポケモンにはまっています。
                             ただクリアするだけではなく、オンライン対戦があり、勝つために研究し、
@@ -72,14 +72,13 @@
                 </div>
             </section>
             <h1 style="color:pink">🌸おみくじ🌸</h1>
-            <section class="container col-sm-8">
-                <ul>
-                    <!-- 後で実際のチャットの一覧表示 -->
-                    <li style="color:red">
-                        今日の運勢は？？
-                    </li>
-                </ul>
-                <form><input type="button" value="確認" onClick="altRan2()"> <span id="sai">-</span></form>
+            <section class="omikuzi">
+                <p class="omi">
+                    今日の運勢は？？
+                </p>
+                </div>
+                <form><input type="button" value="確認" onClick="altRan2()" style="width:200px;">
+                    <span class="result" id="sai">-</span></form>
 
                 <script type="text/javascript">
                     function altRan2() {
@@ -108,29 +107,13 @@
     <footer>
         <div class="footer">
             <a href="#top">
-                <div class="forrer_button">
+                <div class="footer_button">
                     <p class="buttonname">TOP</p>
                 </div>
             </a>
+            <p class="footer_cre">created by Kato</p>
         </div>
-        <p class="footer_cre">created by Kato</p>
     </footer>
-
-
-
-
-
-    <!-- Bootstrapの利用。script要素はbodyの閉じタグの直前にこの順番で貼り付ける。 -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
-
 </body>
 
 </html>
