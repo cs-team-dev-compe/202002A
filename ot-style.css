@@ -7,6 +7,12 @@
 body {
     font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 62.5%;
+    background-image: url(img/KUMAKICHI1027598_TP_V.jpg);
+    background-color:rgba(252, 188, 136, 0.6);
+    background-blend-mode:lighten;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 a {
@@ -50,3 +56,36 @@ ul li {
     transition: 2s;
 }
 
+.ot-hobby {
+    width: 100%;
+    padding: 50px 50px;
+    text-align: center;
+}
+
+.contents {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.ot-hobby h2 {
+    font-weight: bold;
+    font-size: 1.7rem;
+    color: rgb(56, 55, 55);
+    border-bottom: 1px double rgb(59, 59, 59);
+}
+
+.mt-txt {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.mt-txt2 {
+    font-size: 1rem;
+}
+
+.hobbys-img {
+    border-radius: 50%;
+}
