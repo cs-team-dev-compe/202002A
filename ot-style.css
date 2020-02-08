@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* html {
+    font-size: 62.5rem;
+} */
+/*ほんとはhtmlに指定する！*/
+
 body {
     font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
     font-size: 62.5%;
@@ -124,6 +129,8 @@ main {
 .mt-about {
     font-size: 1.2rem;
     text-align: left;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .mount-child {
