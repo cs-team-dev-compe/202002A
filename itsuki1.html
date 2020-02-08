@@ -23,46 +23,54 @@
 
     <main class="container">
         <article>
-            <h1>●挨拶</h1>
-            <p>
-                はじめまして加藤と言います。僕のホームページを閲覧して<br>
-                いただきありがとうございます。こちらのページでは僕の<br>
-                趣味を掲載しています。ページの最後には簡単なおみくじを<br>
-                作成したのでぜひやってみてください！
-            </p>
-
-            <h1>●趣味</h1>
-            <div>
+            <section>
+                <h1>●挨拶</h1>
+                <div class="center">
+                    <p class="greeting">
+                        はじめまして加藤と言います。僕のホームページを閲覧して
+                        いただきありがとうございます。こちらのページでは僕の
+                        趣味を掲載しています。ページの最後には簡単なおみくじを
+                        作成したのでぜひやってみてください！
+                    </p>
+                </div>
+            </section>
+            <section>
+                <h1>●趣味</h1>
                 <h2>1, バスケットボール</h2>
-                <img src="./img/basketball.png">
-                <p>
-                    私は高校時代バスケットボール部に所属していました。<br>
-                    レギュラーを目指して必死に練習した日々は今でも忘れられません。<br>
-                    現在は大学生になった今でも近所の体育館にバスケ<br>
-                    をしにいきます。
-                </p>
-            </div>
-            <h2>2, 料理</h2>
-            <div>
-                <p>
-                    私は毎日、必ず料理をすることを日課にしています。<br>
-                    ただ作るだけでは続かないので、レシピを少しアレンジして<br>
-                    楽しんでいます。「この調味料を加えたらどうなるんだろう」、<br>
-                    「この材料の代わりに、別の材料を入れたらどうなるんだろう」<br>
-                    と、想像力を働かせ、新しい発見につながったときに、喜びを感じます。
-                </p>
-                <img src="./img/omurice.jpg">
-            </div>
-            <h2>3, ゲーム</h2>
-            <div>
-                <img src="./img/pokemon.jpeg">
-                <p>
-                    小さい頃から、ゲームが好きです。最近はポケモンにはまっています。<br>
-                    ただクリアするだけではなく、オンライン対戦があり、勝つために研究し、<br>
-                    試行錯誤するため、沼にはまります。時には１日何時間もしてしまいます。<br>
-
-                </p>
-            </div>
+                <div class="basket">
+                    <img src="./img/basketball.png">
+                    <div class="center">
+                        <p class="des">
+                            私は高校時代バスケットボール部に所属していました。
+                            レギュラーを目指して必死に練習した日々は今でも忘れられません。
+                            現在は大学生になった今でも近所の体育館にバスケ
+                            をしにいきます。
+                        </p>
+                    </div>
+                </div>
+                <h2>2, 料理</h2>
+                <div class="cook">
+                    <div class="center">
+                        <p class="des">
+                            私は毎日、必ず料理をすることを日課にしています。
+                            ただ作るだけでは続かないので、レシピを少しアレンジして
+                            楽しんでいます。新しい発見につながったときに、喜びを感じます。
+                        </p>
+                    </div>
+                    <img src="./img/omurice.jpg" 　width="200" height="200">
+                </div>
+                <h2>3, ゲーム</h2>
+                <div class="game">
+                    <div class="center">
+                        <img src="./img/pokemon.jpeg">
+                        <p class="des">
+                            小さい頃から、ゲームが好きです。最近はポケモンにはまっています。
+                            ただクリアするだけではなく、オンライン対戦があり、勝つために研究し、
+                            試行錯誤するため、沼にはまります。時には１日何時間もしてしまいます。
+                        </p>
+                    </div>
+                </div>
+            </section>
             <h1 style="color:pink">🌸おみくじ🌸</h1>
             <section class="container col-sm-8">
                 <ul>
@@ -71,7 +79,7 @@
                         今日の運勢は？？
                     </li>
                 </ul>
-                <form><input type="button" value="サイコロ" onClick="altRan2()"> <span id="sai">-</span></form>
+                <form><input type="button" value="確認" onClick="altRan2()"> <span id="sai">-</span></form>
 
                 <script type="text/javascript">
                     function altRan2() {

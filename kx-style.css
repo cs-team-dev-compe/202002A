@@ -1,69 +1,116 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
-    font-size: 62.5%;
+  font-family: 'Hiragino Kaku Gothic Pro', 'ヒラギノ角ゴ Pro W3', メイリオ, Meiryo, 'ＭＳ Ｐゴシック', sans-serif;
+  font-size: 62.5%;
 }
 
 a {
-    list-style: none;
-    text-decoration: none;
-    display: block;
+  list-style: none;
+  text-decoration: none;
+  display: block;
 }
 
 ul li {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .header {
-    width: 100%;
-    box-shadow: 3px 3px 6px rgb(2, 39, 30);
+  width: 100%;
+  box-shadow: 3px 3px 6px rgb(2, 39, 30);
 }
 
 .wrapper {
-    width: 100%;
-    padding: 10px 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: rgb(142, 212, 177);
+  width: 100%;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(142, 212, 177);
 }
 
 .header h1 {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: rgb(33, 136, 33);
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: rgb(33, 136, 33);
 }
 
 .header a {
-    color: rgb(187, 182, 182);
-    font-size: 1.2rem;
-    font-weight: bold;
+  color: rgb(202, 105, 14);
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 .header a:hover {
-    color: rgb(73, 71, 71);
-    opacity: 0.8;
-    transition: 2s;
+  color: rgb(73, 71, 71);
+  opacity: 0.8;
+  transition: 2s;
 }
 
 .container {
-    width: 100%;
-    /* height: 600px; */
-    justify-content: center;
-    background-image: url("./img/background.jpg");
+  width: 100%;
+  background-image: url("./img/background.jpg");
 }
 
 
+
+
+section {
+  padding: 10px 10px 60px 10px;
+}
+
+div {
+  margin: 3px;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.4rem;
+}
+p {
+  font-size: 1rem;
+}
+
+.greeting {
+  width: 70%;
+  justify-content: center;
+}
+
+.basket {
+  padding: 50px 50px 100px 50px;
+  display: flex;
+  justify-content: center;
+}
+.cook {
+  padding: 50px 50px 100px 50px;
+  display: flex;
+  justify-content: center;
+}
+.game {
+  padding: 50px 50px 100px 50px;
+  display: flex;
+  justify-content: center;
+}
+.des {
+  width: 50%;
+  justify-content: center;
+}
 
 
 .footer {
   width: 100%;
-  height: 200px;}
+  height: 200px;
+}
 
 .footer_button {}
 
