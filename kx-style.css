@@ -21,7 +21,7 @@ ul li {
 
 .header {
     width: 100%;
-    box-shadow: 3px 3px 6px rgb(194, 227, 243);
+    box-shadow: 3px 3px 6px rgb(2, 39, 30);
 }
 
 .wrapper {
@@ -30,7 +30,7 @@ ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(194, 227, 243);
+    background-color: rgb(142, 212, 177);
 }
 
 .header h1 {
@@ -55,12 +55,15 @@ ul li {
     width: 100%;
     /* height: 600px; */
     justify-content: center;
+    background-image: url("./img/background.jpg");
 }
 
 
 
 
-.footer {}
+.footer {
+  width: 100%;
+  height: 200px;}
 
 .footer_button {}
 
