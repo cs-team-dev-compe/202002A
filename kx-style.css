@@ -21,7 +21,7 @@ ul li {
 
 .header {
     width: 100%;
-    box-shadow: 3px 3px 6px #000;
+    box-shadow: 3px 3px 6px rgb(194, 227, 243);
 }
 
 .wrapper {
@@ -30,22 +30,22 @@ ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(238, 236, 236);
+    background-color: rgb(194, 227, 243);
 }
 
 .header h1 {
     font-size: 2.5rem;
     font-weight: bold;
-    color: brown;
+    color: rgb(33, 136, 33);
 }
 
 .header a {
-    color: darkgreen;
+    color: rgb(187, 182, 182);
     font-size: 1.2rem;
     font-weight: bold;
 }
 .header a:hover {
-    color: rgb(232, 245, 56);
+    color: rgb(73, 71, 71);
     opacity: 0.8;
     transition: 2s;
 }
