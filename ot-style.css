@@ -10,7 +10,7 @@ body {
     background-image: url(img/KUMAKICHI1027598_TP_V.jpg);
     background-color:rgba(252, 188, 136, 0.6);
     background-blend-mode:lighten;
-    background-position: center;
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -28,6 +28,10 @@ ul li {
 .header {
     width: 100%;
     box-shadow: 3px 3px 6px #000;
+}
+
+main {
+    padding: 30px 0;
 }
 
 .wrapper {
@@ -60,7 +64,7 @@ ul li {
     width: 100%;
     padding: 50px 50px;
     text-align: center;
-    margin-bottom: 50px;
+    margin: 30px 0 40px;
 }
 
 .contents {
@@ -68,7 +72,9 @@ ul li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 30px 0;
+    margin: 50px auto 40px;
+    padding: 20px 0;
+    width: 70%;
 }
 
 .title {
@@ -105,7 +111,8 @@ ul li {
 }
 
 .mounts {
-    margin: 30px 0;
+    margin: 50px 0 20px;
+
 }
 
 .mt-name {
@@ -121,4 +128,16 @@ ul li {
 
 .mount-child {
     margin: 30px 0;
+}
+
+.footer {
+    background-color: snow;
+    opacity: 0.8;
+    padding: 25px 0;
+    text-align: center;
+}
+
+.footer-top {
+    color: steelblue;
+    font-size: 1.3rem;
 }
