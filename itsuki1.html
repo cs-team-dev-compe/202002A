@@ -25,8 +25,18 @@
 
             <script type="text/javascript">
                 function altRan2() {
-                    var r = Math.floor(Math.random() * 6) + 1; //乱数の発生
-                    
+                    var r = Math.floor(Math.random() * 100); //乱数の発生
+                    if (x <= 9) {
+                        r = 凶;
+                    } else if (x <= 29) {
+                        r = 末吉;
+                    } else if (x <= 69) {
+                        r = 小吉;
+                    } else if (x <= 89) {
+                        r = 中吉;
+                    } else if (x <= 99) {
+                        r = 大吉;
+                    }
                     document.getElementById("sai").innerHTML = r; //値の出力
                 }
             </script>
