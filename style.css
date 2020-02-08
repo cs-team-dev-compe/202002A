@@ -7,25 +7,39 @@
 body {
     font-size: 62.5%;
     text-align: center;
+    background-image: url(img/tokimemoFTHG9402_TP_V.jpg);
+    background-color:rgba(204, 217, 245, 0.6);
+    background-blend-mode:lighten;
+    background-position: center;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 h1 {
     font-size: 2rem;
     margin: 20px 0;
+    color: rgb(84, 86, 87);
+    letter-spacing: 1.7px;
 }
 
 .links {
     width: 100%;
-    border: 2px solid #000;
     padding: 20px 0;
 }
 
 .link {
     width: 80%;
+    min-width: 500px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border: 2px solid rgb(88, 88, 86);
+    border-radius: 20px;
+}
+
+.link img {
+    border-radius: 25%;
 }
 

@@ -89,3 +89,7 @@ ul li {
 .hobbys-img {
     border-radius: 50%;
 }
+.hobbys-img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
